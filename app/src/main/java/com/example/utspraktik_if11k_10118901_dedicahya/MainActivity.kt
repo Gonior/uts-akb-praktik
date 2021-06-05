@@ -12,7 +12,10 @@ import kotlinx.android.synthetic.main.activity_check_kembali.*
 import kotlinx.android.synthetic.main.activity_main.*
 import java.util.*
 
-data class User(val nik : Int, val nama : String, val tgl : Date, val jk : String, val status : String)
+//Nama : Dedi Cahya
+//Kelas : IF11K
+//NIM : 10118901
+//Tanggal Pengerjaan : 05 Juni 2021
 class MainActivity : AppCompatActivity() {
     private var nama = ""
     private var nik = ""

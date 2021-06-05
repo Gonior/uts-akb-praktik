@@ -6,6 +6,10 @@ import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_check_kembali.*
 
 
+//Nama : Dedi Cahya
+//Kelas : IF11K
+//NIM : 10118901
+//Tanggal Pengerjaan : 05 Juni 2021
 class CheckKembali : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
