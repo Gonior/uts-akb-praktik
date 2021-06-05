@@ -9,6 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.UtsPraktikIF11K10118901DediCahya">
+        <activity android:name=".Finish"></activity>
+        <activity android:name=".CheckKembali" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

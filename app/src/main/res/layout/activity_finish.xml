@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".Finish">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#E5E5E5"
+        app:cardCornerRadius="25dp"
+        >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:padding="20dp"
+
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/finish_img"/>
+        <TextView
+            android:id="@+id/tSuccess"
+            android:layout_below="@id/img"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Berhasil disimpan"/>
+        <TextView
+            android:id="@+id/tKet"
+            android:layout_below="@id/tSuccess"
+            android:layout_centerHorizontal="true"
+            android:textColor="#757575"
+            android:textSize="12dp"
+            android:paddingHorizontal="50dp"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Terima kasih, laporan Anda membantu kami dalam melakukan penanganan kasus secara tepat."/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnOk"
+            android:layout_width="match_parent"
+            android:text="Ok"
+            android:layout_below="@id/tKet"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/white"
+            android:background="@drawable/rounded_button_ok"
+            android:textAllCaps="false"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
